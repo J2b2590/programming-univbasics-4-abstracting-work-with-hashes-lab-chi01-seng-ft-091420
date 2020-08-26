@@ -19,5 +19,4 @@ def update_counting_hash(hash, key)
   end
   hash
 end
-# elsif hash[key] == hash[key]
-#     add_hash =  hash[key] += 1
+
