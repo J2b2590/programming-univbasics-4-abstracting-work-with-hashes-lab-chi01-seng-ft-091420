@@ -14,9 +14,9 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
   hash[key]
 
-  # if hash[key] != hash[key]
-  #     hash[key => 1] = 1
-  # elsif hash[key] == hash[key]
-  #     add_hash =  hash[key] += 1
-  # end
+  if hash[key] != hash[key]
+      hash[key => 1] = 1
+  end
 end
+# elsif hash[key] == hash[key]
+#     add_hash =  hash[key] += 1
