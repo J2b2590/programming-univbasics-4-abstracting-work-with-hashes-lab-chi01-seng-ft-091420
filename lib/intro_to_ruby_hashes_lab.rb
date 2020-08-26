@@ -1,6 +1,6 @@
-def my_hash_creator(name, bob)
+def my_hash_creator(person, value)
   # return a hash that includes the key and value parameters passed into this method
-   {name: bob}
+   {key: value}
 end
 
 def read_from_hash(hash, key)
